@@ -27,12 +27,12 @@ export function Context() {
   return (
     <div className="flex flex-col">
       <div className="pl-4">
-        <img src="https://react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fpassing_data_context_far.dark.png&w=640&q=75" />
         <ul className="list-disc">
           <li>Permet de fournir une information à un arbre de composant</li>
           <li>Peut traverser des composants intermédiaires</li>
           <li>Avant d'utiliser un contexte on essaie d'utiliser les props</li>
           <li>Cas d'usage : theme, current account, routing, panier d'achat, ...</li>
+          <li className="text-amber-600">Correspond au provide / inject de vue</li>
         </ul>
       </div>
       <div className="pt-8">

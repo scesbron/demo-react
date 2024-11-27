@@ -43,6 +43,7 @@ export function ListRendering() {
       <ul className="list-disc">
         <li>On peut mapper un tableau en jsx</li>
         <li>Utilisation d'une prop "key" pour différencier les éléments</li>
+        <li className="text-amber-600">remplace la directive v-for de vue</li>
       </ul>
     </div>
   )

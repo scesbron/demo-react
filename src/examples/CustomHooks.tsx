@@ -21,7 +21,10 @@ export function CustomHooks() {
     <div className="pl-4">
       <ul className="list-disc">
         <li>On peut utiliser les hooks pour partager du code commun</li>
-        <li>Vous êtes actuellement {isOnline ? 'online' : 'offline'}</li>
+        <li>
+          Vous êtes actuellement{' '}
+          {isOnline ? <span className="text-green-500">online</span> : <span className="text-red-500">offline</span>}
+        </li>
       </ul>
     </div>
   )
